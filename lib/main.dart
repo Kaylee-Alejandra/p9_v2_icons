@@ -17,6 +17,12 @@ class MisIconos extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              // Texto personalizado
+              Text(
+                "Kaylee Alejandra Luevano Molina - Mat: 22308051281248",
+                style: TextStyle(color: Colors.blue, fontSize: 16),
+              ),
+              SizedBox(height: 20), // Espacio entre el texto y los iconos
               // Primera fila de iconos con subtítulos
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -55,7 +61,7 @@ class MisIconos extends StatelessWidget {
                   ),
                   IconWithSubtitle(
                     icon: Icons.thumb_down,
-                    subtitle: 'dislike',
+                    subtitle: 'Dislike',
                     color: Colors.lightBlueAccent,
                   ),
                 ],
